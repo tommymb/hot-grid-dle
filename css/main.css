@@ -10,8 +10,20 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  display: flex;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
 }
